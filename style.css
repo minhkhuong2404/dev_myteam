@@ -1,0 +1,202 @@
+.team {
+    padding: 5% 10% 0%;
+}
+.title {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+.who {
+    position: relative;
+}
+
+.team_name {
+    position: relative;
+    width: 300px;
+    height: 47px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    /*line-height: 48px;*/
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+.who_title {
+    position: relative;
+    width: 130px;
+    height: 27px;
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.who_intro {
+    position: relative;
+    width: 439px;
+    height: 87px;
+    flex:1;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.footer {
+    display: flex;
+    /* identical to box height */
+    color: #A9A9A9;
+    flex-direction: column;
+}
+
+.dev {
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.link {
+    position: relative;
+    text-align: center;
+}
+
+.team_pic {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 8% 0;
+    grid-gap: 2%;
+}
+.ava {
+    position: relative;
+    width: 70%;
+    height: 70%;
+}
+
+.second_mem {
+
+    padding-top: 30%;
+}
+
+.fifth_mem {
+
+    padding-top: 30%;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*magic*/
+}
+
+.side_name {
+    position: relative;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 85%;
+    top: -90%;
+    width: 55%;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+.name {
+    position: relative;
+    width: 117px;
+    height: 27px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+/*tablet*/
+@media (min-width: 630px) and (max-width: 1024px) {
+    .title {
+        grid-template-columns: 0;
+    }
+    .team_name {
+        font-size: 30px;
+    }
+    .team_pic {
+        grid-template-columns: 50% 50%;
+    }
+    .second_mem {
+        padding-top: 5%;
+    }
+    .fifth_mem {
+        padding-top: 0;
+    }
+    .forth_mem {
+        padding-top: 5%;
+    }
+    .sixth_mem {
+        padding-top: 5%;
+    }
+    .side_name {
+        width: 60%;
+    }
+    .ava {
+        height: 80%;
+    }
+
+}
+
+/*mobile*/
+@media  (max-width: 630px){
+    .team_name {
+        font-size: 30px;
+    }
+    .side_name {
+        width: 40%;
+    }
+    .team {
+        padding: 0;
+    }
+    .title {
+        grid-template-columns: 0;
+    }
+    .team_pic {
+        grid-template-columns: 50% 50%;
+    }
+    .second_mem {
+        padding-top: 5%;
+    }
+    .fifth_mem {
+        padding-top: 0;
+    }
+    .forth_mem {
+        padding-top: 5%;
+    }
+    .sixth_mem {
+        padding-top: 5%;
+    }
+    .side_name {
+        width: 60%;
+    }
+    .ava {
+        height: 80%;
+    }
+
+}
